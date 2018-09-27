@@ -1,0 +1,10 @@
+Latest Assigment:
+
+Lab #6
+
+Make Nav Bar and Screens on index, contacts, and aboutme page.
+Clean Up folder. Organize.
+On submitting, name folder my name.
+
+Lab #5
+
