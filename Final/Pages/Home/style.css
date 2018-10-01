@@ -1,0 +1,175 @@
+* {
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.Screen {
+    background-color: red;
+    display: inline-block;
+    height:100%;
+    left:0px;
+    position: absolute;
+    width:100%;
+}
+
+    .StyleA {
+        top:0%;
+        background-image: url('../../../Content/photos/Bitcamp2018.jpg');
+        background-size:cover;
+        background-position-x:15%;
+        animation: pano 30s infinite;
+    }
+
+        @keyframes pano {
+            0% {background-position-x:15%;}
+            50% {background-position-x:85%;}
+            100% {background-position-x:15%;}
+        }
+
+        .CentralPanel {
+            border: 0px solid black;
+            border-radius: 5px;
+            position: relative;
+            top:10%;
+            left:30%;
+            height:80%;
+            width:40%;
+        }
+
+            #ProfilePic {
+            border-radius:50%;
+            box-shadow:2px 2px 5px black;
+            height:300px;
+            width:300px;
+            position: absolute;
+            left:25%;
+            top:5%;
+            }
+
+                #ProfilePic:hover {
+                box-shadow: 0px 0px 100px 50px rgba(0,0,0,0.75);
+                }
+
+            #ProfileHeader {
+            color: white;
+            font-size:2.5em;
+            position: relative;
+            top:60%;
+            text-align: center;
+            text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+            }
+
+            #ProfileText {
+            color:white;
+            font-size:1.25em;
+            font-weight: bold;
+            letter-spacing: 2px;
+            position: relative;
+            top:60%;
+            text-align: center;
+            text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black; 
+            }
+
+    .StyleB {
+        background: rgb(153, 204, 255);
+        border-top: 1px solid black;
+        top:100%;
+    }
+
+        .CenteredButton {
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: center;
+            width:30%;
+            position: relative;
+            left:35%;
+        }
+
+        .CenteredButton:hover {
+            border: 1px solid darkorange
+        }
+
+        .SplitLeftPanel {
+            background-color: whitesmoke;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 15px 15px 21px 4px rgba(0,0,0,0.75);
+            padding:5px solid black;
+            position: absolute;
+            top:10%;
+            left:5%;
+            height:80%;
+            width:40%;
+        }
+
+        .SplitRightPanel {
+            background-color: whitesmoke;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 15px 15px 21px 4px rgba(0,0,0,0.75);
+            padding:5px solid black;
+            position: absolute;
+            top:10%;
+            left:55%;
+            height:80%;
+            width:40%;
+        }
+
+        .Center {
+            text-align: center;
+        }
+
+    .StyleC {
+        top:200%;
+        background-color:whitesmoke;
+    }
+
+        #ImgA {
+        border: 1px solid black;
+        height:80%;
+        left:5%;
+        position: absolute;
+        top:10%;
+        width:25%;
+        }
+
+        #ImgB {
+            border: 1px solid black;
+            height:35%;
+            left:35%;
+            position: absolute;
+            top:10%;
+            width:25%;
+        }
+
+        #ImgC {
+            border: 1px solid black;
+            height:40%;
+            left:35%;
+            position: absolute;
+            top:50%;
+            width:25%;
+        }
+
+        #ImgD {
+            border: 1px solid black;
+            height:80%;
+            left:65%;
+            position: absolute;
+            top:10%;
+            width:30%;
+        }
+
+
+    .StyleD {
+        background-color:slategray;
+        top:300%;
+        height:20%;
+        text-align: center;
+        width:100%;
+    }
+
+        #heart {
+            color:red;
+        }
