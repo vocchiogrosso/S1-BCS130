@@ -35,6 +35,20 @@
     position: absolute;
 }
 
+.Footer {
+    height:25%;
+    left:0%;
+    width:100%;
+    position: absolute;
+}
+
+.FooterDouble {
+    height:50%;
+    left:0%;
+    width:100%;
+    position: absolute;
+}
+
 /* Actual Screen Settings */
 
     #ScreenA {
@@ -61,3 +75,8 @@
     top:400%;
     background-color: green;
     }    
+
+    #Footer {
+    top:500%;
+    background-color: gray;
+    }
