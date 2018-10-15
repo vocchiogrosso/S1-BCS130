@@ -15,7 +15,7 @@
 
     .StyleA {
         top:0%;
-        background-image: url('../../../Content/photos/Bitcamp2018.jpg');
+        background-image: url('../../../Content/photos/Events/Bitcamp2018.jpg');
         background-size:cover;
         background-position-x:15%;
         animation: pano 30s infinite;
