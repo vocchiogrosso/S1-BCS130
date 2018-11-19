@@ -1,0 +1,156 @@
+* {
+    color: black;
+}
+
+/*| Default Web Formatted Screens |*/
+
+.Screen {
+    height: 100%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+.ScreenDouble {
+    height: 200%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+.ScreenTriple {
+    height: 300%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+.Footer {
+    height: 25%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+/*| Navigation Bar Types |*/
+
+.Navigation-Bar-Top {
+    height: 15%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.Navigation-Bar-Left-Side {
+    height: 100%;
+    left: 0%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.Navigation-Bar-Right-Side {
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    width: 15%;
+    z-index: 2;
+}
+
+    /*| Fixed Versions Of Navigation Bar |*/
+
+    .Navigation-Bar-Top-Fixed {
+        height: 15%;
+        left: 0%;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+        z-index: 2;
+    }
+    
+    .Navigation-Bar-Left-Side-Fixed {
+        height: 100%;
+        left: 0%;
+        position: fixed;
+        top: 0%;
+        width: 15%;
+        z-index: 2;
+    }
+    
+    .Navigation-Bar-Right-Side-Fixed {
+        height: 100%;
+        position: fixed;
+        right: 0%;
+        top: 0%;
+        width: 15%;
+        z-index: 2;
+    }
+
+/*| Navigation Bar Button |*/
+
+    .Navigation-Bar-Top-Button {
+        height: 100%;
+        left: 0%;
+        position: absolute;
+        top: 0%;
+        width: 10%;
+    }
+
+        .Navigation-Menu-Icon-Top {
+            background-color: gray;
+            border: 1px solid black;
+            border-radius:25px;
+            height: 15%;
+            left: 20%;
+            position: absolute;
+            top: 15%;
+            width: 60%;
+        }
+
+        .Navigation-Menu-Icon-Middle {
+            background-color: gray;
+            border: 1px solid black;
+            border-radius:25px;
+            height: 15%;
+            left: 20%;
+            position: absolute;
+            top: 40%;
+            width: 60%;
+        }
+
+        .Navigation-Menu-Icon-Bottom {
+            background-color: gray;
+            border: 1px solid black;
+            border-radius:25px;
+            height: 15%;
+            left: 20%;
+            position: absolute;
+            top: 65%;
+            width: 60%;
+        }
+
+    .Navigation-Bar-Top-Item {
+        font-size: 1.5em;
+        height: 100%;
+        position: absolute;
+        text-align: center;
+        top: 0%;
+        width: 15%;
+    }
+
+        a .Navigation-Bar-Top-Item:hover {
+            background-color: lightgray;
+        }
+
+    .Navigation-Bar-Top-Item-Text {
+        position: relative;
+        top: 10%;
+    }
+
+        a .Navigation-Bar-Top-Item-Text:hover {
+            color:saddlebrown;
+        }
+
+
+/*| Modifications and Positioning |*/
