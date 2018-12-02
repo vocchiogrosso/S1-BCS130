@@ -1,0 +1,208 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#SA {
+    animation: Banner 25s;
+    animation-iteration-count: infinite;
+    /*background-color: lightslategray;*/
+    background-image: url("../../../Content/Photos/Events/Banner.jpg");
+    background-position-y: 50%;
+    background-position-x: 0%;
+    top: 0%;
+}
+
+    @keyframes Banner {
+        10%{background-position-x: 0%;}
+        90%{background-position-x: 60%;}
+    }
+
+    #NavigationBar {
+        background-color: #f6f6f6;
+    }
+
+        #NavigationItemA {
+            left: 10%;
+        }
+
+        #NavigationItemB {
+            left: 25%;
+        }
+
+        #NavigationItemC {
+            left: 40%;
+        }
+
+        #NavigationItemD {
+            left: 55%;
+        }
+
+        #NavigationItemE {
+            left: 70%;
+        }
+
+        #NavigationItemF {
+            left: 85%;
+        }
+
+        #Profile {
+            border-radius: 100%;
+            height: auto;
+            left: 40%;
+            position: absolute;
+            top: 20%;
+            max-width: 20%;
+        }
+
+        #ProfileName {
+            color: white;
+            font-size: 6vh;
+            text-shadow: 4px 4px 4px black;
+            text-align: center;
+            position: relative;
+            top: 62.5%;
+        }
+
+        #ProfileCatch {
+            color: white;
+            font-size: 3vh;
+            text-shadow: 4px 4px 4px black;
+            text-align: center;
+            position: relative;
+            top: 62%;
+        }
+
+        .white-text {
+            color: white;
+            position: relative;
+            top: 30%;
+            height: 20%;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+            .LatestNews {
+                background: white;
+                border: 1px solid black;
+                width: 90%;
+                height: 20%;
+                position: absolute;
+            }
+
+                #ItemA {
+                    left: 5%;
+                    top: 20%;
+                }
+
+                #ItemB {
+                    left: 5%;
+                    top: 45%;
+                }
+
+                #ItemC {
+                    left: 5%;
+                    top: 70%;
+                }
+        
+            .TA1 {
+                color:white;
+                text-align: center;
+            }
+        
+            #TA2{
+                position: absolute;
+                height: 85%;
+                width: auto;
+                left: 30%;
+                top: 7.5%;
+                -webkit-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+                box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+            
+            }
+        
+            #TMid{
+                font-size: 3vh;
+                padding: 1%;
+                position: relative;
+                left:55%;
+            }
+
+            .project-button{
+                font-size: 3vh;
+                border: none;
+                background-color: whitesmoke;
+                margin-left:2.5%; 
+                position: relative;
+                text-align: center;
+                left: 27.5%;
+                top: 25%;
+                float: left;
+                height: 50%;
+                width: 20%;
+            }
+
+                .project-button p {
+                    position: relative;
+                    top: 17.5%;
+                }
+
+                #TA5 {
+                    margin: 0;
+                    padding: 5%;
+                    position: relative;
+                    top: 20%;
+                }
+
+                .Panel-Mid-Square2{
+                    height: 100%;
+                    width: 50%;
+                    float: left;
+                    position: absolute;
+                    left: 0%;
+                    top: 0%;
+                }
+
+                .Panel-Mid-Square3{
+                    height: 100%;
+                    width: 50%;
+                    float: left;
+                    position: absolute;
+                    margin: 0;
+                    padding: 2.5%;
+                    left: 50%;
+                    top: 0%;
+                }
+        
+
+                #AA{
+                    background-image: url("../../../Content/Photos/Events/10.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                #AB{
+                    background-image: url("../../../Content/Photos/Events/9.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                #AC{
+                    background-image: url("../../../Content/Photos/Events/6.jpg");
+                    background-position-y: 50%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                
+
+#SB {
+    background-color: whitesmoke;
+    top: 100%;
+}
+
+
+
+#SE { 
+    background-color: gray;
+    top: 200%;
+}
